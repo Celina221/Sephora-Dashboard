@@ -84,7 +84,7 @@ def push_to_sql(df_clean):
     conn= mysql.connector.connect(
         host= "localhost",
         user= "root",
-        password= "Peachy!5736",
+        password= "",
         database= "Sephora_Database"
     )
 
